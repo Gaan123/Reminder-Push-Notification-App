@@ -25,7 +25,7 @@
                     </div>
                     <div class="form-group form-check">
                         <input type="checkbox" class="form-check-input" id="Notification" name="notification" value="1" {{ $user->notification==1?"checked":"" }}>
-                        <label class="form-check-label" for="Notification">Get Notification</label>
+                        <label class="form-check-label" for="Notification">Recive Notification</label>
                     </div>
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
